@@ -1,6 +1,5 @@
 package com.finka.lgbt.controller
 
-import com.finka.lgbt.model.Knife
 import com.finka.lgbt.service.KnifeService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping

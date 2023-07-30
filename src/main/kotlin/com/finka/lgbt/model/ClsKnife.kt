@@ -5,8 +5,8 @@ import org.springframework.data.relational.core.mapping.Table
 
 
 @Table
-data class Knife(
+data class ClsKnife(
     @Id val id: Long,
-    val name: String
+    val name: String,
     val isDeleted: Boolean
 )

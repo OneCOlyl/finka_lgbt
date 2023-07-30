@@ -25,6 +25,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-data-rest:3.1.1")
     implementation("org.springframework.data:spring-data-relational:3.1.1")
+    implementation("org.flywaydb:flyway-maven-plugin:9.20.0")
 
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("org.postgresql:postgresql")
