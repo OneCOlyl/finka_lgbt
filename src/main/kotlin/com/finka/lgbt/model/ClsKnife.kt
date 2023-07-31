@@ -8,5 +8,7 @@ import org.springframework.data.relational.core.mapping.Table
 data class ClsKnife(
     @Id val id: Long,
     val name: String,
-    val isDeleted: Boolean
+    val code: String,
+    val isDeleted: Boolean,
+    val timeCreate: java.security.Timestamp
 )
